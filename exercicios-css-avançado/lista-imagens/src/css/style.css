@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .imagens {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagem-rome img {
+    margin-right: 20px;
+    position: relative;
+}
+
+.imagem-rome .informacoes.rome {
+    position: absolute;
+    transform: translate(30%, -180%);
+}
+
+.imagem-boat img {
+    margin-right: 20px;
+    position: relative;
+}
+
+.imagem-boat .informacoes.boat {
+    position: absolute;
+    transform: translate(30%, -180%);
+}
+
+.imagem-sand img {
+    margin-right: 20px;
+    position: relative;
+}
+
+.imagem-sand .informacoes.sand {
+    position: absolute;
+    transform: translate(30%, -180%);
+}
+
+.imagem-starry img {
+    margin-right: 20px;
+    position: relative;
+}
+
+.imagem-starry .informacoes.starry {
+    position: absolute;
+    transform: translate(30%, -180%);
+}
+
+.informacoes {
+    color: #ffffff;
+    font-family: "Public Sans", serif;
+}
+
+.informacoes h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.informacoes h3 {
+    font-weight: 300;
+}
+
+
+
